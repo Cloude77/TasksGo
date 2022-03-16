@@ -33,6 +33,6 @@ func main() {
 
 	var availableFunds int = 120
 	fmt.Println(availableFunds, "dollars available.")
-	fmt.Println("Whithin budget?", int(total) <= availableFunds)
+	fmt.Println("Whithin budget?", total <= float64(availableFunds))
 
 }

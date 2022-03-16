@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -24,5 +25,9 @@ func main() {
 	var width int = 2
 	fmt.Println("Area is", len*float64(width))
 	fmt.Println("lenght > width", len > float64(width))
+
+	var now time.Time = time.Now()
+	var year int = now.Year() // Year - method
+	fmt.Println(year)
 
 }
