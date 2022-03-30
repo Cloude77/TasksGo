@@ -30,4 +30,8 @@ func main() {
 	var year int = now.Year() // Year - method
 	fmt.Println(year)
 
+	for x := 1; x >= 3; x++ {
+		fmt.Println(x)
+	}
+
 }
